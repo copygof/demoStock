@@ -1,3 +1,4 @@
+
 require("babel-core").transform("code")
 
 const tableCategory = [
@@ -52,7 +53,7 @@ function getCategory() {
 function getCategoryById(categoryId) {
   // Do somathing...
 
-  return
+  return tableCategory.find(({ _id }) => _id === categoryId)
 }
 
 /**
@@ -66,8 +67,25 @@ function getCategoryById(categoryId) {
 */
 function addCategory(category) {
   // Do somathing...
-  
-  return 
+  const listOldId = tableCategory
+  .map(value => value._id)
+  .map(value => value.replace('category:', ''))
+  .map(value => Number(value, 3))
+  .sort((a, b) => a < b )
+
+  const getLastId = Math.floor(listOldId[0] + 1)
+  let genarateId
+  if (getLastId >= 10) {
+    genarateId = '0'+getLastId
+  } else if (getLastId >= 100) {
+    genarateId = getLastId
+  } else {
+    genarateId = '00'+getLastId
+  }
+
+  tableCategory.push({ _id: 'category:'+ genarateId, category })
+
+  return tableCategory
 }
 
 /**
@@ -83,7 +101,16 @@ function addCategory(category) {
 */
 function updateCategoryById(category, categoryId) {
   // Do somathing...
-  return 
+  return tableCategory.map(value => {
+    if (value._id === categoryId) {
+      return {
+        ...value,
+        category,
+      }
+    } else {
+      return value
+    }
+  })
 }
 
 /**
@@ -97,7 +124,7 @@ function updateCategoryById(category, categoryId) {
 */
 function deleteCategoryById(categoryId) {
   // Do somathing...
-  return 
+  return tableCategory.filter(value => value._id !== categoryId)
 }
 
 // End of Category
@@ -113,4 +140,3 @@ export {
   updateCategoryById,
   deleteCategoryById,
 }
-
