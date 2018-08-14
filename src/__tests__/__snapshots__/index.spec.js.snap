@@ -1,0 +1,320 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ทดสอบฟังก์ชัน category ควรที่จะ สามารถ addCategory เพิ่มข้อมูล category ใหม่ได้ 1`] = `
+Array [
+  Object {
+    "_id": "category:001",
+    "category": "หนังสือเรียน",
+  },
+  Object {
+    "_id": "category:002",
+    "category": "หนังสือนิยาย",
+  },
+  Object {
+    "_id": "category:003",
+    "category": "หนังสือบันเทิง",
+  },
+  Object {
+    "_id": "category:004",
+    "category": "หนังสือการเงิน",
+  },
+  Object {
+    "_id": "category:005",
+    "category": "คอมพิวเตอร์",
+  },
+]
+`;
+
+exports[`ทดสอบฟังก์ชัน category ควรที่จะ สามารถ addCategory เพิ่มข้อมูล category ใหม่ได้ 2`] = `
+Array [
+  Object {
+    "_id": "category:001",
+    "category": "หนังสือเรียน",
+  },
+  Object {
+    "_id": "category:002",
+    "category": "หนังสือนิยาย",
+  },
+  Object {
+    "_id": "category:003",
+    "category": "หนังสือบันเทิง",
+  },
+  Object {
+    "_id": "category:004",
+    "category": "หนังสือการเงิน",
+  },
+  Object {
+    "_id": "category:005",
+    "category": "คอมพิวเตอร์",
+  },
+  Object {
+    "_id": "category:006",
+    "category": "คอมพิวเตอร์",
+  },
+]
+`;
+
+exports[`ทดสอบฟังก์ชัน category ควรที่จะ สามารถ deleteCategoryById ลบข้อมูล category ตาม id ได้ 1`] = `
+Array [
+  Object {
+    "_id": "category:002",
+    "category": "หนังสือนิยาย",
+  },
+  Object {
+    "_id": "category:003",
+    "category": "หนังสือบันเทิง",
+  },
+  Object {
+    "_id": "category:004",
+    "category": "หนังสือการเงิน",
+  },
+  Object {
+    "_id": "category:005",
+    "category": "คอมพิวเตอร์",
+  },
+  Object {
+    "_id": "category:006",
+    "category": "คอมพิวเตอร์",
+  },
+]
+`;
+
+exports[`ทดสอบฟังก์ชัน category ควรที่จะ สามารถ deleteCategoryById ลบข้อมูล category ตาม id ได้ 2`] = `
+Array [
+  Object {
+    "_id": "category:001",
+    "category": "หนังสือเรียน",
+  },
+  Object {
+    "_id": "category:003",
+    "category": "หนังสือบันเทิง",
+  },
+  Object {
+    "_id": "category:004",
+    "category": "หนังสือการเงิน",
+  },
+  Object {
+    "_id": "category:005",
+    "category": "คอมพิวเตอร์",
+  },
+  Object {
+    "_id": "category:006",
+    "category": "คอมพิวเตอร์",
+  },
+]
+`;
+
+exports[`ทดสอบฟังก์ชัน category ควรที่จะ สามารถ deleteCategoryById ลบข้อมูล category ตาม id ได้ 3`] = `
+Array [
+  Object {
+    "_id": "category:001",
+    "category": "หนังสือเรียน",
+  },
+  Object {
+    "_id": "category:002",
+    "category": "หนังสือนิยาย",
+  },
+  Object {
+    "_id": "category:004",
+    "category": "หนังสือการเงิน",
+  },
+  Object {
+    "_id": "category:005",
+    "category": "คอมพิวเตอร์",
+  },
+  Object {
+    "_id": "category:006",
+    "category": "คอมพิวเตอร์",
+  },
+]
+`;
+
+exports[`ทดสอบฟังก์ชัน category ควรที่จะ สามารถ deleteCategoryById ลบข้อมูล category ตาม id ได้ 4`] = `
+Array [
+  Object {
+    "_id": "category:001",
+    "category": "หนังสือเรียน",
+  },
+  Object {
+    "_id": "category:002",
+    "category": "หนังสือนิยาย",
+  },
+  Object {
+    "_id": "category:003",
+    "category": "หนังสือบันเทิง",
+  },
+  Object {
+    "_id": "category:005",
+    "category": "คอมพิวเตอร์",
+  },
+  Object {
+    "_id": "category:006",
+    "category": "คอมพิวเตอร์",
+  },
+]
+`;
+
+exports[`ทดสอบฟังก์ชัน category ควรที่จะ สามารถ getCategory ดึงข้อมูล category มาทั้งหมดได้ 1`] = `
+Array [
+  Object {
+    "_id": "category:001",
+    "category": "หนังสือเรียน",
+  },
+  Object {
+    "_id": "category:002",
+    "category": "หนังสือนิยาย",
+  },
+  Object {
+    "_id": "category:003",
+    "category": "หนังสือบันเทิง",
+  },
+  Object {
+    "_id": "category:004",
+    "category": "หนังสือการเงิน",
+  },
+]
+`;
+
+exports[`ทดสอบฟังก์ชัน category ควรที่จะ สามารถ getCategoryById ดึงข้อมูล category ตาม id ได้ 1`] = `
+Object {
+  "_id": "category:001",
+  "category": "หนังสือเรียน",
+}
+`;
+
+exports[`ทดสอบฟังก์ชัน category ควรที่จะ สามารถ getCategoryById ดึงข้อมูล category ตาม id ได้ 2`] = `
+Object {
+  "_id": "category:002",
+  "category": "หนังสือนิยาย",
+}
+`;
+
+exports[`ทดสอบฟังก์ชัน category ควรที่จะ สามารถ getCategoryById ดึงข้อมูล category ตาม id ได้ 3`] = `
+Object {
+  "_id": "category:003",
+  "category": "หนังสือบันเทิง",
+}
+`;
+
+exports[`ทดสอบฟังก์ชัน category ควรที่จะ สามารถ getCategoryById ดึงข้อมูล category ตาม id ได้ 4`] = `
+Object {
+  "_id": "category:004",
+  "category": "หนังสือการเงิน",
+}
+`;
+
+exports[`ทดสอบฟังก์ชัน category ควรที่จะ สามารถ updateCategoryById อัพเดพข้อมูล category ตาม id ได้ 1`] = `
+Array [
+  Object {
+    "_id": "category:001",
+    "category": "หมวดหมู่หนังสือเรียน",
+  },
+  Object {
+    "_id": "category:002",
+    "category": "หนังสือนิยาย",
+  },
+  Object {
+    "_id": "category:003",
+    "category": "หนังสือบันเทิง",
+  },
+  Object {
+    "_id": "category:004",
+    "category": "หนังสือการเงิน",
+  },
+  Object {
+    "_id": "category:005",
+    "category": "คอมพิวเตอร์",
+  },
+  Object {
+    "_id": "category:006",
+    "category": "คอมพิวเตอร์",
+  },
+]
+`;
+
+exports[`ทดสอบฟังก์ชัน category ควรที่จะ สามารถ updateCategoryById อัพเดพข้อมูล category ตาม id ได้ 2`] = `
+Array [
+  Object {
+    "_id": "category:001",
+    "category": "หนังสือเรียน",
+  },
+  Object {
+    "_id": "category:002",
+    "category": "หมวดหมู่หนังสือนิยาย",
+  },
+  Object {
+    "_id": "category:003",
+    "category": "หนังสือบันเทิง",
+  },
+  Object {
+    "_id": "category:004",
+    "category": "หนังสือการเงิน",
+  },
+  Object {
+    "_id": "category:005",
+    "category": "คอมพิวเตอร์",
+  },
+  Object {
+    "_id": "category:006",
+    "category": "คอมพิวเตอร์",
+  },
+]
+`;
+
+exports[`ทดสอบฟังก์ชัน category ควรที่จะ สามารถ updateCategoryById อัพเดพข้อมูล category ตาม id ได้ 3`] = `
+Array [
+  Object {
+    "_id": "category:001",
+    "category": "หนังสือเรียน",
+  },
+  Object {
+    "_id": "category:002",
+    "category": "หนังสือนิยาย",
+  },
+  Object {
+    "_id": "category:003",
+    "category": "หมวดหมู่หนังสือบันเทิง",
+  },
+  Object {
+    "_id": "category:004",
+    "category": "หนังสือการเงิน",
+  },
+  Object {
+    "_id": "category:005",
+    "category": "คอมพิวเตอร์",
+  },
+  Object {
+    "_id": "category:006",
+    "category": "คอมพิวเตอร์",
+  },
+]
+`;
+
+exports[`ทดสอบฟังก์ชัน category ควรที่จะ สามารถ updateCategoryById อัพเดพข้อมูล category ตาม id ได้ 4`] = `
+Array [
+  Object {
+    "_id": "category:001",
+    "category": "หนังสือเรียน",
+  },
+  Object {
+    "_id": "category:002",
+    "category": "หนังสือนิยาย",
+  },
+  Object {
+    "_id": "category:003",
+    "category": "หนังสือบันเทิง",
+  },
+  Object {
+    "_id": "category:004",
+    "category": "หมวดหมู่หนังสือการเงิน",
+  },
+  Object {
+    "_id": "category:005",
+    "category": "คอมพิวเตอร์",
+  },
+  Object {
+    "_id": "category:006",
+    "category": "คอมพิวเตอร์",
+  },
+]
+`;
